@@ -1,0 +1,46 @@
+{
+    "name": "project-structure-database",
+    "version": "0.1.0",
+    "private": true,
+    "description": "Shared Drizzle ORM schema and migrations for project-structure (PostgreSQL)",
+    "license": "UNLICENSED",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist/**/*",
+        "drizzle/**/*"
+    ],
+    "scripts": {
+        "build": "nest build",
+        "clean": "rimraf dist",
+        "db:generate": "drizzle-kit generate",
+        "db:migrate": "drizzle-kit migrate",
+        "db:studio": "drizzle-kit studio",
+        "prepack": "npm run build",
+        "lint": "eslint \"src/**/*.ts\" --fix",
+        "format": "prettier --write \"src/**/*.ts\"",
+        "app": "run-s lint format build"
+    },
+    "devDependencies": {
+        "@nestjs/common": "^11.1.6",
+        "@types/node": "^24.6.1",
+        "@types/pg": "^8.15.5",
+        "drizzle-kit": "^0.31.5",
+        "eslint": "^9.36.0",
+        "eslint-config-prettier": "^10.1.8",
+        "eslint-plugin-prettier": "^5.5.4",
+        "npm-run-all": "^4.1.5",
+        "prettier": "^3.6.2",
+        "typescript": "^5.9.3"
+    },
+    "dependencies": {
+        "@eslint/js": "^9.36.0",
+        "drizzle-orm": "^0.44.5",
+        "globals": "^16.4.0",
+        "pg": "^8.16.3",
+        "typescript-eslint": "^8.45.0"
+    },
+    "peerDependencies": {
+        "@nestjs/common": "^11.0.0"
+    }
+}

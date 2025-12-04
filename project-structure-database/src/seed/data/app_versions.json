@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "app_version": "1.0",
+    "is_maintenance": false,
+    "app_update_status": "is_not_need",
+    "app_platform": "android",
+    "app_url": "http:\/\/192.168.29.59:3000\/",
+    "api_base_url": "http:\/\/192.168.29.59:3000\/api\/v1",
+    "is_live": true,
+    "is_deleted": false,
+    "createdAt": "2025-07-25T04:50:45.425Z",
+    "updatedAt": "2025-07-25T08:47:23.054Z"
+  },
+  {
+    "id": 2,
+    "app_version": "1.0",
+    "is_maintenance": false,
+    "app_update_status": "is_not_need",
+    "app_platform": "ios",
+    "app_url": "http:\/\/192.168.29.59:3000\/",
+    "api_base_url": "http:\/\/192.168.29.59:3000\/api\/v1",
+    "is_live": true,
+    "is_deleted": false,
+    "createdAt": "2025-07-25T04:51:06.021Z",
+    "updatedAt": "2025-07-25T04:51:06.021Z"
+  }
+]

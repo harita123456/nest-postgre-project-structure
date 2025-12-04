@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "content_type": "terms_and_condition",
+        "content": "https://quizconnectapp.com/terms.html",
+        "is_deleted": false,
+        "created_at": "2025-10-03 10:42:24.793214+00",
+        "updated_at": "2025-10-03 10:42:24.793214+00"
+    },
+    {
+        "id": 2,
+        "content_type": "privacy_policy",
+        "content": "https://quizconnectapp.com/privacy_policy.html",
+        "is_deleted": false,
+        "created_at": "2025-10-03 10:42:34.31023+00",
+        "updated_at": "2025-10-03 10:42:34.31023+00"
+    },
+    {
+        "id": 3,
+        "content_type": "about",
+        "content": "https://quizconnectapp.com/faq.html",
+        "is_deleted": false,
+        "created_at": "2025-10-03 10:42:43.79476+00",
+        "updated_at": "2025-10-03 10:42:43.79476+00"
+    }
+]
